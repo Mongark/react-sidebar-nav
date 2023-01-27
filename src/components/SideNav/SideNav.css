@@ -1,0 +1,20 @@
+.SideNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  background-color: darkslategray;
+}
+
+.SideNavList {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.SideNavItem {
+  width: 100%;
+  border-bottom: 1px solid black;
+}

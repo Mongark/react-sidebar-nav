@@ -1,11 +1,10 @@
 import './App.css'
+import {SideNav} from './components/SideNav/SideNav'
 
 function App() {
 
   return (
-    <div>
-      Hello, world
-    </div>
+    <SideNav />
   )
 }
 
