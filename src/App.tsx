@@ -1,10 +1,17 @@
+import {Dashboard} from '@material-ui/icons'
+import {
+  Route,
+  Routes,
+} from 'react-router-dom'
+
 import './App.css'
-import {SideNav} from './components/SideNav/SideNav'
 
 function App() {
 
   return (
-    <SideNav />
+    <Routes>
+      <Route path="/" element={<Dashboard />}/>
+    </Routes>
   )
 }
 
